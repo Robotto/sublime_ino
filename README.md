@@ -18,5 +18,5 @@ mine looks like this:
 
 The standard keymap already includes the shortcuts for 'build' and 'run' (upload) so these work out of the box.
 
-happy hacking :)
+happy hacking :)   
 ~Robotto
