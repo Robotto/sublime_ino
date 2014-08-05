@@ -3,9 +3,9 @@ sublime_ino
 
 A build system plugin for Sublime Text which calls the [ino tool](http://inotool.org/) for either:
 
--Compile: [CTRL]+B
--Clean: [CTRL]+[ALT]+B
--(Compile and) Upload: [CTRL]+[SHIFT]+B
+-Compile: [CTRL]+B   
+-Clean: [CTRL]+[ALT]+B   
+-(Compile and) Upload: [CTRL]+[SHIFT]+B   
 
 Put the sublime.build file into your `~/.config/sublime-text-3/Packages/User/` directory.
 
