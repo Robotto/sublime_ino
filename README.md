@@ -7,7 +7,7 @@ clean command requires modification of your user keymap (~/.config/sublime-text-
 
 
 [
-    { "keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"} },
+    { "keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"} }
 ]
 
 the standard keymap already includes the shortcuts for 'buid' and 'run'
