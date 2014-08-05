@@ -1,13 +1,19 @@
 sublime_ino
 ===========
 
-A build system plugin for Sublime Text which calls the ino tool for either compile ( [CTRL]+b ), clean ( [CTRL]+[ALT]+b ) or, (compile and) upload ( [CTRL]+[SHIFT]+b )
+A build system plugin for Sublime Text which calls the [ino tool](http://inotool.org/) for either:
 
-clean command requires modification of your user keymap (~/.config/sublime-text-3/Packages/User/Default.sublime-keymap):
+-Compile: [CTRL]+B  
+-Clean: [CTRL]+[ALT]+B  
+-(Compile and) Upload: [CTRL]+[SHIFT]+B  
+   
+Put the sublime.build file into your `~/.config/sublime-text-3/Packages/User/` directory.
 
+The _optional_ clean command requires modification of your user keymap which - in linux - is: `~/.config/sublime-text-3/Packages/User/Default.sublime-keymap` (or similar)
 
-[
-    { "keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"} }
-]
+mine looks like this:
+```xml
+[{ "keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"} }]
+```
 
-the standard keymap already includes the shortcuts for 'buid' and 'run'
+The standard keymap already includes the shortcuts for 'build' and 'run' (upload) so these work out of the box.
