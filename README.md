@@ -9,7 +9,7 @@ A build system plugin for [Sublime Text](http://www.sublimetext.com/) which call
 
 Put the sublime.build file into your `~/.config/sublime-text-3/Packages/User/` directory.
 
-The _optional_ clean command requires modification of your user keymap which - in linux - is: `~/.config/sublime-text-3/Packages/User/Default.sublime-keymap` (or similar)
+The _optional_ clean command requires modification of your user key bindings: `Preferences -> Key Bindings - User`
 
 mine looks like this:
 ```xml
