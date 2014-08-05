@@ -1,7 +1,7 @@
 sublime_ino
 ===========
 
-A build system plugin for Sublime Text which calls the [ino tool](http://inotool.org/) for either:
+A build system plugin for [Sublime Text](http://www.sublimetext.com/) which calls the [ino tool](http://inotool.org/) for either:
 
 -Compile: [CTRL]+B   
 -Clean: [CTRL]+[ALT]+B   
