@@ -18,5 +18,7 @@ mine looks like this:
 
 The standard keymap already includes the shortcuts for 'build' and 'run' (upload) so these work out of the box.
 
+Activate the build system by choosing: `Tools -> Build System -> sublime_ino`
+
 happy hacking :)   
 ~Robotto
