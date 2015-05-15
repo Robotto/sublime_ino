@@ -2,9 +2,11 @@
   "cmd": ["ino", "build"],
   "selector": "source.c++.arduino",
   "working_dir": "$file_path/..",
-
   "variants": [
 
+  		{ "cmd": ["sh", "-c", "ino build"],
+          "name": "Build"
+        },
         { "cmd": ["sh", "-c", "ino build && ino upload"],
           "name": "Run"
         },
