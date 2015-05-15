@@ -13,7 +13,14 @@ The _optional_ clean command requires modification of your user key bindings: `P
 
 mine looks like this:
 ```xml
-[{ "keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"} }]
+[
+	{
+  		"keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"}
+	},
+	{
+		"keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"}
+	}
+]
 ```
 
 The standard keymap already includes the shortcuts for 'build' and 'run' (upload) so these work out of the box.
