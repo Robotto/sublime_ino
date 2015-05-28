@@ -1,7 +1,7 @@
 sublime_ino
 ===========
 
-A build system plugin for [Sublime Text](http://www.sublimetext.com/) which calls the [ino tool](http://inotool.org/) for either:
+A build system plugin for [Sublime Text](http://www.sublimetext.com/) which calls the [ano / arturo tool](https://github.com/scottdarch/Arturo) for either:
 
 -Compile: [CTRL]+B
 
@@ -14,7 +14,7 @@ The clean and upload commands require modification of your user key bindings, wh
 
 Activate the build system by choosing: `Tools -> Build System -> sublime_ino`
 
-if you want auto, you need to fidget with an arduino language definition.. I'll teach you later.
+if you want auto, you need to fidget with an arduino language definition.. I'll teach you later. (hint: "selector": "source.c++.arduino" )
 
 happy hacking :)
 ~Robotto

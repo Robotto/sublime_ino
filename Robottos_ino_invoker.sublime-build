@@ -1,12 +1,12 @@
 {
-  "cmd": ["ino", "build"],
+  "cmd": ["ano", "build"],
   "selector": "source.c++.arduino",
   "working_dir": "$file_path/..",
   "variants":
     [
-	{ "cmd": ["sh", "-c", "ino build"], "name": "Build"} ,
-	{ "cmd": ["sh", "-c", "ino build && ino upload"], "name": "Run"} ,
-    { "cmd": ["sh", "-c", "ino clean"], "name": "Clean"}
+	{ "cmd": ["sh", "-c", "ano build"], "name": "Build"} ,
+	{ "cmd": ["sh", "-c", "ano build && ano upload"], "name": "Run"} ,
+    { "cmd": ["sh", "-c", "ano clean"], "name": "Clean"}
     ]
 
 }
