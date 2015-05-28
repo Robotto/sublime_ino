@@ -1,7 +1,7 @@
 sublime_ino
 ===========
 
-A build system plugin for [Sublime Text](http://www.sublimetext.com/) which calls the [ano / arturo tool](https://github.com/scottdarch/Arturo) for either:
+A build system plugin for [Sublime Text](http://www.sublimetext.com/) which calls the ~~ino tool~~ [ano / arturo tool](https://github.com/scottdarch/Arturo) for either:
 
 -Compile: [CTRL]+B
 
