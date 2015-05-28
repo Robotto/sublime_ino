@@ -6,7 +6,7 @@
     [
 	{ "cmd": ["sh", "-c", "ino build"], "name": "Build"} ,
 	{ "cmd": ["sh", "-c", "ino build && ino upload"], "name": "Run"} ,
-        { "cmd": ["sh", "-c", "ino clean"], "name": "Clean"}
+    { "cmd": ["sh", "-c", "ino clean"], "name": "Clean"}
     ]
 
 }
