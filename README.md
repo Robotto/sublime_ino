@@ -6,6 +6,7 @@ A build system plugin for [Sublime Text](http://www.sublimetext.com/) which call
 -Compile: [CTRL]+B
 
 -Clean: [CTRL]+[ALT]+B
+
 -(Compile and) Upload: [CTRL]+[SHIFT]+B  (aka. run)
 
 Put the both files into your `~/.config/sublime-text-3/Packages/User/` directory.
