@@ -1,8 +1,5 @@
 [
 	{
-  		"keys": ["ctrl+b"], "command": "build", "args": {"variant": "Build"}
-	},
-	{
   		"keys": ["ctrl+alt+b"], "command": "build", "args": {"variant": "Clean"}
 	},
 	{
