@@ -4,5 +4,11 @@
 	},
 	{
 		"keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"}
+	},
+	{
+		"keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false }
+	},
+	{
+		"keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true }
 	}
 ]
