@@ -1,11 +1,10 @@
 {
-  "cmd": ["ano", "build"],
+  "cmd": ["sh", "-c", "arduino --verify $file_name"],
   "selector": "source.c++.arduino",
-  "working_dir": "$file_path/..",
+  "working_dir": "$file_path",
   "variants":
     [
-	{ "cmd": ["sh", "-c", "arduino", "--verify", "$file_name", "--build.path=$file_path"], "name": "Build"} ,
-	{ "cmd": ["sh", "-c", "arduino", "--upload", "$file_name", "--build.path=$file_path"], "name": "Run"}
+	{ "cmd": ["sh", "-c", "arduino --upload $file_name"], "name": "Run"}
     ]
 
 }
